@@ -3,41 +3,41 @@ import confetti from "canvas-confetti";
 
 const images = [
   {
-    src: "/images/ForsteTreff18.png",
+    src: "/ForsteTreff18.png",
     text: "Vår første treff, 2018 🍔",
     width: "250px",
     height: "350px",
   },
   {
-    src: "/images/Oslo2019.jpg",
+    src: "/Oslo2019.jpg",
     text: "Vår første tur til Oslo sammen, tror jeg, 2019 ❤️",
   },
   {
-    src: "/images/jul20.jpg",
+    src: "/jul20.jpg",
     text: "Vår andre jul sammen, tror jeg, 2020 🎄",
   },
   {
-    src: "/images/Nyttaar21.JPG",
-    text: "Vårt nyttårsbilde sammen på Facetim, 2021 🎉",
+    src: "/Nyttaar21.JPG",
+    text: "Vårt nyttårsbilde sammen på Facetime, 2021 🎉",
   },
   {
-    src: "/images/Kypros.png",
+    src: "/Kypros.png",
     text: "Vår tur til Kypros, 2022 🕶",
   },
   {
-    src: "/images/ForsteThailandtur23.JPG",
+    src: "/ForsteThailandtur23.JPG",
     text: "Vår første ferie i Thailand sammen, 2023 🌴",
   },
   {
-    src: "/images/mannogKone24.jpg",
+    src: "/mannogKone24.jpg",
     text: "Vårt første år som mann og kone, 2024 💍",
   },
   {
-    src: "/images/thailandtur25.JPG",
-    text: "Bryllupsreise og andre tur til Thailand sammen, 2025 🌴",
+    src: "/thailandtur25.JPG",
+    text: "Bryllupsreise og andre gang i Thailand, 2025 🌴",
   },
   {
-    src: "/images/Rocky26.JPG",
+    src: "/Rocky26.JPG",
     text: "Og selvfølgelig vårt 2026 .....🐺",
   },
 ];
