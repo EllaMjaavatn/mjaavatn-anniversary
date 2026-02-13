@@ -3,41 +3,39 @@ import confetti from "canvas-confetti";
 
 const images = [
   {
-    src: "/ForsteTreff18.png",
+    src: "/mjaavatn-anniversary/ForsteTreff18.png",
     text: "Vår første treff, 2018 🍔",
-    width: "250px",
-    height: "350px",
   },
   {
-    src: "/Oslo2019.jpg",
+    src: "/mjaavatn-anniversary/Oslo2019.jpg",
     text: "Vår første tur til Oslo sammen, tror jeg, 2019 ❤️",
   },
   {
-    src: "/jul20.jpg",
+    src: "/mjaavatn-anniversary/jul20.jpg",
     text: "Vår andre jul sammen, tror jeg, 2020 🎄",
   },
   {
-    src: "/Nyttaar21.JPG",
+    src: "/mjaavatn-anniversary/Nyttaar21.JPG",
     text: "Vårt nyttårsbilde sammen på Facetime, 2021 🎉",
   },
   {
-    src: "/Kypros.png",
+    src: "/mjaavatn-anniversary/Kypros.png",
     text: "Vår tur til Kypros, 2022 🕶",
   },
   {
-    src: "/ForsteThailandtur23.JPG",
+    src: "/mjaavatn-anniversary/ForsteThailandtur23.JPG",
     text: "Vår første ferie i Thailand sammen, 2023 🌴",
   },
   {
-    src: "/mannogKone24.jpg",
+    src: "/mjaavatn-anniversary/mannogKone24.jpg",
     text: "Vårt første år som mann og kone, 2024 💍",
   },
   {
-    src: "/thailandtur25.JPG",
+    src: "/mjaavatn-anniversary/thailandtur25.JPG",
     text: "Bryllupsreise og andre gang i Thailand, 2025 🌴",
   },
   {
-    src: "/Rocky26.JPG",
+    src: "/mjaavatn-anniversary/Rocky26.JPG",
     text: "Og selvfølgelig vårt 2026 .....🐺",
   },
 ];

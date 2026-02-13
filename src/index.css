@@ -21,6 +21,12 @@ h1 {
   line-height: 1.1;
 }
 
+h2 { 
+font-size: 2.2em;
+line-height: 1.1;
+font-family: 'Dancing Script', cursive;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -105,6 +111,8 @@ input[type="date"] {
 
 .loveMessage {
   font-size: 1.2em;
+  font-family: 'Dancing Script', cursive;
+  line-height: 1.6;
   margin-top: 20px;
   color: black;
 }
@@ -113,6 +121,7 @@ input[type="date"] {
   border: none;
   border-radius: 22px;
   padding: 26px;
+  letter-spacing: 0.5;
   width: min(980px, 92vw);
   max-height: 85vh;
   overflow: auto;
@@ -130,7 +139,8 @@ input[type="date"] {
 
 .summaryCloseText {
   margin-top: 20px;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
   color: #3d3b3c;
 }
 
