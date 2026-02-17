@@ -64,6 +64,8 @@ export default function App() {
   const CORRECT_DATE = "2018-02-13";
   const [typewriterText, setTypewriterText] = useState("");
 
+  const [zoomedImg, setZoomedImg] = useState(null);
+
  function startLoveTyping() {
   if (intervalRef.current) {
     clearInterval(intervalRef.current);
@@ -144,7 +146,12 @@ export default function App() {
         <div className="gallery">
           {images.map((img, i) => (
             <figure key={i} className="photoCard">
-              <img className="photoImg" src={img.src} alt={img.text} />
+             <img
+              className="photoImg"
+              src={img.src}
+              alt={img.text}
+              onClick={() => setZoomedImg(img.src)}
+              />
               <figcaption className="imgTexts">{img.text}</figcaption>
             </figure>
           ))}
@@ -157,6 +164,11 @@ export default function App() {
         >
           ✕ Lukk brevet
         </button>
+        {zoomedImg && (
+  <div className="lightbox" onClick={() => setZoomedImg(null)}>
+    <img src={zoomedImg} className="lightboxImg" />
+  </div>
+)}
       </dialog>
       {showAfterCloseText && (
         <div className="summaryCloseText">
@@ -177,6 +189,7 @@ export default function App() {
           </button>
         </div>
       )}
+      
     </main>
   );
 }
